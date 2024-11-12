@@ -27,7 +27,7 @@ config = {
     "zscore_method": "auc",
     "std": "std.txt",
     "gene_attribute_name": "CD_MemberList",
-    "epoch": 5,
+    "epoch": 25,
     "lr": 0.001,
     "wd": 0.001,
     "alpha": 0.3,
@@ -39,13 +39,19 @@ config = {
     "dropout_fraction": 0.3,
     "cpu_count": 12,
     "drug_count": 0,
-    "hierarchy": None
+    "parent_network": None,
+    "disease": None,
+    "hierarchy": None,
+    "ndexserver": None,
+    "ndexuser": None,
+    "ndexpassword": None
 }
 
 base_outdir = config["outdir"]
 train_outdir = os.path.join(config["outdir"], "train")
 predict_outdir = os.path.join(config["outdir"], "predict")
 config["model_predictions"] = [predict_outdir]
+
 annotate_outdir = os.path.join(config["outdir"], "annotate")
 os.makedirs(train_outdir, exist_ok=True)
 os.makedirs(predict_outdir, exist_ok=True)
@@ -62,14 +68,22 @@ with wandb.init(entity="b2ai-cm4ai", project="vnn-challenge-wls", config=config)
 
     config["outdir"] = predict_outdir
     config["inputdir"] = train_outdir
+    config["hierarchy"] = os.path.join(train_outdir, "hierarchy.cx2")
     config["std"] = None
     predict_config = AttrDict(config)
     
     predict_cmd = VNNPredict(predict_config)
     predict_cmd.run()
 
+    wandb.save(os.path.join(predict_outdir,"gene_rho.out"))
+    wandb.save(os.path.join(predict_outdir,"rlipp.out"))
+    wandb.save(os.path.join(predict_outdir,"predict.txt"))
+
     config["outdir"] = annotate_outdir
     config["inputdir"] = predict_outdir
     annotate_config = AttrDict(config)
     annotate_cmd = VNNAnnotate(annotate_config)
     annotate_cmd.run()
+
+    wandb.save(os.path.join(annotate_outdir,"rlipp.out"))
+    wandb.save(os.path.join(annotate_outdir,"hierarchy.cx2"))
