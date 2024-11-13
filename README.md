@@ -20,11 +20,11 @@ git clone git@github.com:acomphealth/CM4AI_VNN_Challenge.git
 cd /CM4AI_VNN_Challenge
 pip install -r requirements.txt
 ```
-6. Login to W&B with your API key
+7. Login to W&B with your API key
 ```bash
 wandb login
 ```
-7. Run template code and visualize results in W&B
+8. Run template code and visualize results in W&B
 ```bash
 python src/train.py
 ```
