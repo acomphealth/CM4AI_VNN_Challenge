@@ -17,7 +17,7 @@ conda activate vnn_challenge
 6. Clone the CM4AI_VNN_Challenge repository and install dependencies
 ```
 git clone https://github.com/acomphealth/CM4AI_VNN_Challenge.git
-cd /CM4AI_VNN_Challenge
+cd CM4AI_VNN_Challenge
 pip install -r requirements.txt
 ```
 7. Login to W&B with your API key
