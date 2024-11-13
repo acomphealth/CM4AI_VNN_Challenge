@@ -16,7 +16,7 @@ conda activate vnn_challenge
 ```
 6. Clone the CM4AI_VNN_Challenge repository and install dependencies
 ```
-git clone git@github.com:acomphealth/CM4AI_VNN_Challenge.git
+git clone https://github.com/acomphealth/CM4AI_VNN_Challenge.git
 cd /CM4AI_VNN_Challenge
 pip install -r requirements.txt
 ```
