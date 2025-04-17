@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/7b5cbec5207745f5853fa542a8d6afbd/artifacts
+end_time: 1744849801755
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 7b5cbec5207745f5853fa542a8d6afbd
+run_name: wise-loon-970
+run_uuid: 7b5cbec5207745f5853fa542a8d6afbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744849791713
+status: 4
+tags: []
+user_id: sl3223

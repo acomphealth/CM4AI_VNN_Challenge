@@ -1,8 +1,8 @@
 import os
 
 from cellmaps_vnn.annotate import VNNAnnotate
-from cellmaps_vnn.predict import VNNPredict
-from cellmaps_vnn.train import VNNTrain
+from cellmaps_vnn.predict_mlflow import VNNPredict
+from cellmaps_vnn.train_mlflow import VNNTrain
 import mlflow
 
 

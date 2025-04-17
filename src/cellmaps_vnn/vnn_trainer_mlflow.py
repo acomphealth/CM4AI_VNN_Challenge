@@ -6,7 +6,7 @@ from torch.autograd import Variable
 from cellmaps_vnn.data_wrapper import *
 from cellmaps_vnn.vnn import *
 from cellmaps_vnn.ccc_loss import *
-import wandb
+import mlflow
 
 logger = logging.getLogger(__name__)
 
@@ -95,11 +95,11 @@ class VNNTrainer:
                     "elapsed_time": elapsed_time
                 }
 
-                wandb.log(metrics, step=epoch)
+                mlflow.log_metics(metrics, step=epoch)
 
                 min_loss = self._save_model_if_improved(min_loss, val_loss, epoch)
 
-        wandb.run.summary["min_val_loss"] = min_loss
+        mlflow.log_metric("min_val_loss", min_loss)
         return min_loss
 
     def _train_epoch(self, train_loader, optimizer, term_mask_map):
