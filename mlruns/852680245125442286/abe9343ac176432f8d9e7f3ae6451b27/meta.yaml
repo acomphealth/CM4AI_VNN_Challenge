@@ -1,5 +1,5 @@
 artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/abe9343ac176432f8d9e7f3ae6451b27/artifacts
-end_time: null
+end_time: 1744852838992
 entry_point_name: ''
 experiment_id: '852680245125442286'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1744852612806
-status: 1
+status: 3
 tags: []
 user_id: sl3223
