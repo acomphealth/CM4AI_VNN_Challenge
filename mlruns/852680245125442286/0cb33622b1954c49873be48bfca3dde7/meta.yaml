@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/0cb33622b1954c49873be48bfca3dde7/artifacts
+end_time: 1744847331118
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 0cb33622b1954c49873be48bfca3dde7
+run_name: nosy-asp-670
+run_uuid: 0cb33622b1954c49873be48bfca3dde7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744847331100
+status: 4
+tags: []
+user_id: sl3223

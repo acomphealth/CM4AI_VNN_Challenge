@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/b46f8d1706834c81b6227d95b9127486/artifacts
+end_time: 1744847766392
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: b46f8d1706834c81b6227d95b9127486
+run_name: tasteful-shad-873
+run_uuid: b46f8d1706834c81b6227d95b9127486
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744847756469
+status: 4
+tags: []
+user_id: sl3223
