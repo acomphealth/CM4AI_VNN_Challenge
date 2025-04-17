@@ -18,7 +18,7 @@ import cellmaps_vnn
 from cellmaps_vnn import util
 from cellmaps_vnn.exceptions import CellmapsvnnError
 from cellmaps_vnn.rlipp_calculator import RLIPPCalculator
-import wandb
+import mlflow
 
 
 logger = logging.getLogger(__name__)
@@ -241,9 +241,10 @@ class VNNPredict:
             predict_label_gpu = self._to_device(predict_data[1])
             test_corr = util.pearson_corr(test_predict, predict_label_gpu)
             logger.info(f"Test correlation {model.root}: {test_corr:.4f}")
-            wandb.run.summary["test_corr"] = test_corr
+            mlflow.log_metric("test_corr", test_corr)
 
             np.savetxt(self._get_predict_dest_file(), test_predict.cpu().numpy(), '%.4e')
+
 
         except Exception as e:
             logger.error(f"Prediction error: {e}")

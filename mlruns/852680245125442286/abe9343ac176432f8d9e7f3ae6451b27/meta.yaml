@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/abe9343ac176432f8d9e7f3ae6451b27/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: abe9343ac176432f8d9e7f3ae6451b27
+run_name: flawless-newt-990
+run_uuid: abe9343ac176432f8d9e7f3ae6451b27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744852612806
+status: 1
+tags: []
+user_id: sl3223
