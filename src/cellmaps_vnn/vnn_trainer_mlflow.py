@@ -95,7 +95,7 @@ class VNNTrainer:
                     "elapsed_time": elapsed_time
                 }
 
-                mlflow.log_metics(metrics, step=epoch)
+                mlflow.log_metrics(metrics, step=epoch)
 
                 min_loss = self._save_model_if_improved(min_loss, val_loss, epoch)
 

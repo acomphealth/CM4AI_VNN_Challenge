@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/edfac43062524fc49cc541e832189678/artifacts
+end_time: 1744851057125
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: edfac43062524fc49cc541e832189678
+run_name: aged-ant-436
+run_uuid: edfac43062524fc49cc541e832189678
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744851046258
+status: 4
+tags: []
+user_id: sl3223

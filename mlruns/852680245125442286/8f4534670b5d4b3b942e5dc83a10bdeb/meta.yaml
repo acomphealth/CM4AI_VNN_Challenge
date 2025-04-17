@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/8f4534670b5d4b3b942e5dc83a10bdeb/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 8f4534670b5d4b3b942e5dc83a10bdeb
+run_name: skittish-perch-323
+run_uuid: 8f4534670b5d4b3b942e5dc83a10bdeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744851091910
+status: 1
+tags: []
+user_id: sl3223
