@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/be3e10819dfc46c08c34553137ebb39a/artifacts
+end_time: 1745631017084
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: be3e10819dfc46c08c34553137ebb39a
+run_name: fortunate-ox-71
+run_uuid: be3e10819dfc46c08c34553137ebb39a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745630523295
+status: 4
+tags: []
+user_id: sl3223

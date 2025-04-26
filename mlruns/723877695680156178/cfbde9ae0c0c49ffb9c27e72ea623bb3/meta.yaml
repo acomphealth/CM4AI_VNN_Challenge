@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/cfbde9ae0c0c49ffb9c27e72ea623bb3/artifacts
+end_time: 1745626968530
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: cfbde9ae0c0c49ffb9c27e72ea623bb3
+run_name: useful-fowl-455
+run_uuid: cfbde9ae0c0c49ffb9c27e72ea623bb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745626449196
+status: 3
+tags: []
+user_id: sl3223

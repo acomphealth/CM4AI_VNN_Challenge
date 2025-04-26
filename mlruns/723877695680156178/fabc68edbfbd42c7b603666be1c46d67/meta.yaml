@@ -1,0 +1,16 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/fabc68edbfbd42c7b603666be1c46d67/artifacts
+deleted_time: 1745625311371
+end_time: 1745620703618
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: deleted
+run_id: fabc68edbfbd42c7b603666be1c46d67
+run_name: puzzled-auk-183
+run_uuid: fabc68edbfbd42c7b603666be1c46d67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745620703595
+status: 4
+tags: []
+user_id: sl3223

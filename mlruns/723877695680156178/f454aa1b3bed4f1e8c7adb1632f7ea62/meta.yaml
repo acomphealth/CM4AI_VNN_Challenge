@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/f454aa1b3bed4f1e8c7adb1632f7ea62/artifacts
+end_time: 1745625252452
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: f454aa1b3bed4f1e8c7adb1632f7ea62
+run_name: zealous-newt-760
+run_uuid: f454aa1b3bed4f1e8c7adb1632f7ea62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745624726978
+status: 3
+tags: []
+user_id: sl3223

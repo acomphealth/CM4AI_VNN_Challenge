@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/9a0aa89690724152838e1ff8bc982b31/artifacts
+end_time: 1745628446685
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 9a0aa89690724152838e1ff8bc982b31
+run_name: calm-cat-809
+run_uuid: 9a0aa89690724152838e1ff8bc982b31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745628419728
+status: 4
+tags: []
+user_id: sl3223

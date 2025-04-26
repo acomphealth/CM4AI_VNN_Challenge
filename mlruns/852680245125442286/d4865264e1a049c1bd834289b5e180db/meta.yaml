@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/d4865264e1a049c1bd834289b5e180db/artifacts
+end_time: 1745632394611
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: d4865264e1a049c1bd834289b5e180db
+run_name: industrious-mare-510
+run_uuid: d4865264e1a049c1bd834289b5e180db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745632140474
+status: 4
+tags: []
+user_id: sl3223

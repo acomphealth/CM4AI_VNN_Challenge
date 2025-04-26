@@ -1,0 +1,16 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/432d163d0d9f42ae9ce3230caa3cfe75/artifacts
+deleted_time: 1745625311767
+end_time: 1745623101225
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: deleted
+run_id: 432d163d0d9f42ae9ce3230caa3cfe75
+run_name: vaunted-carp-410
+run_uuid: 432d163d0d9f42ae9ce3230caa3cfe75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745622170483
+status: 4
+tags: []
+user_id: sl3223

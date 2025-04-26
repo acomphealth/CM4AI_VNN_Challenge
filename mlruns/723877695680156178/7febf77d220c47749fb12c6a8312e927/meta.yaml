@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/7febf77d220c47749fb12c6a8312e927/artifacts
+end_time: 1745629344934
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 7febf77d220c47749fb12c6a8312e927
+run_name: delightful-ox-64
+run_uuid: 7febf77d220c47749fb12c6a8312e927
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745629306058
+status: 4
+tags: []
+user_id: sl3223

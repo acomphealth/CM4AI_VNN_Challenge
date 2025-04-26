@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/63e0803b627e48da82a690188cb351dd/artifacts
+end_time: 1745628942463
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 63e0803b627e48da82a690188cb351dd
+run_name: adorable-colt-268
+run_uuid: 63e0803b627e48da82a690188cb351dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745628894359
+status: 4
+tags: []
+user_id: sl3223

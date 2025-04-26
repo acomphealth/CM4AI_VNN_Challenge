@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/4527a772d20d4e08a6724705b42eb70a/artifacts
+end_time: 1745629757781
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 4527a772d20d4e08a6724705b42eb70a
+run_name: vaunted-swan-732
+run_uuid: 4527a772d20d4e08a6724705b42eb70a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745629689402
+status: 4
+tags: []
+user_id: sl3223

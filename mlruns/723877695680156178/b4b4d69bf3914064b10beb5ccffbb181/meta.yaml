@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/b4b4d69bf3914064b10beb5ccffbb181/artifacts
+end_time: 1745625922248
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: b4b4d69bf3914064b10beb5ccffbb181
+run_name: brawny-boar-90
+run_uuid: b4b4d69bf3914064b10beb5ccffbb181
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745625646563
+status: 3
+tags: []
+user_id: sl3223

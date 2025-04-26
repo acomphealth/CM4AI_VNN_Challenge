@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/c27ce76ecc37487788cc69b71e5024ab/artifacts
+end_time: 1745627766386
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: c27ce76ecc37487788cc69b71e5024ab
+run_name: intrigued-mule-794
+run_uuid: c27ce76ecc37487788cc69b71e5024ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745627249358
+status: 3
+tags: []
+user_id: sl3223

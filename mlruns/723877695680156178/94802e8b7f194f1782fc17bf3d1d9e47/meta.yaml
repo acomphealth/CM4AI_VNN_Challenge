@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/94802e8b7f194f1782fc17bf3d1d9e47/artifacts
+end_time: 1745628164214
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 94802e8b7f194f1782fc17bf3d1d9e47
+run_name: bald-carp-104
+run_uuid: 94802e8b7f194f1782fc17bf3d1d9e47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745627766390
+status: 4
+tags: []
+user_id: sl3223

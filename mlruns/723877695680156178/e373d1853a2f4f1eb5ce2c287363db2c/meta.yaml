@@ -1,0 +1,16 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/e373d1853a2f4f1eb5ce2c287363db2c/artifacts
+deleted_time: 1745625311827
+end_time: 1745620887948
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: deleted
+run_id: e373d1853a2f4f1eb5ce2c287363db2c
+run_name: entertaining-rat-214
+run_uuid: e373d1853a2f4f1eb5ce2c287363db2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745620887923
+status: 4
+tags: []
+user_id: sl3223

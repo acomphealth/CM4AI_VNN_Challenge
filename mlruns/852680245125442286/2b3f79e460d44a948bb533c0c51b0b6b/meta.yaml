@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/2b3f79e460d44a948bb533c0c51b0b6b/artifacts
+end_time: 1745631770082
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 2b3f79e460d44a948bb533c0c51b0b6b
+run_name: masked-wolf-11
+run_uuid: 2b3f79e460d44a948bb533c0c51b0b6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745631265357
+status: 4
+tags: []
+user_id: sl3223

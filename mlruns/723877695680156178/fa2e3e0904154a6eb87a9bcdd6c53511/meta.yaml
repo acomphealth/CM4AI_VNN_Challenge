@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/fa2e3e0904154a6eb87a9bcdd6c53511/artifacts
+end_time: 1745628488959
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: fa2e3e0904154a6eb87a9bcdd6c53511
+run_name: sincere-loon-302
+run_uuid: fa2e3e0904154a6eb87a9bcdd6c53511
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745628469737
+status: 4
+tags: []
+user_id: sl3223

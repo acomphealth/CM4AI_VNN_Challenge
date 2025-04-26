@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/eb2bc51f85b34e6a842c797ab7d70bed/artifacts
+end_time: 1745626283766
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: eb2bc51f85b34e6a842c797ab7d70bed
+run_name: fearless-koi-172
+run_uuid: eb2bc51f85b34e6a842c797ab7d70bed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745626103813
+status: 3
+tags: []
+user_id: sl3223

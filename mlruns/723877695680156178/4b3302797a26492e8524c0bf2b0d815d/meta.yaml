@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/4b3302797a26492e8524c0bf2b0d815d/artifacts
+end_time: 1745628352947
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 4b3302797a26492e8524c0bf2b0d815d
+run_name: shivering-midge-553
+run_uuid: 4b3302797a26492e8524c0bf2b0d815d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745628273676
+status: 4
+tags: []
+user_id: sl3223

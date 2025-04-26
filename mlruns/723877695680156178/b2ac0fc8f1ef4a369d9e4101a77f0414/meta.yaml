@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/b2ac0fc8f1ef4a369d9e4101a77f0414/artifacts
+end_time: 1745625396493
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: b2ac0fc8f1ef4a369d9e4101a77f0414
+run_name: serious-goat-941
+run_uuid: b2ac0fc8f1ef4a369d9e4101a77f0414
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745625327487
+status: 3
+tags: []
+user_id: sl3223

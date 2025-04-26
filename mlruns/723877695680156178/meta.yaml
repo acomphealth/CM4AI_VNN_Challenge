@@ -1,0 +1,6 @@
+artifact_location: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178
+creation_time: 1745620703390
+experiment_id: '723877695680156178'
+last_update_time: 1745620703390
+lifecycle_stage: active
+name: vnn-challenge-hyperparameter-optimization

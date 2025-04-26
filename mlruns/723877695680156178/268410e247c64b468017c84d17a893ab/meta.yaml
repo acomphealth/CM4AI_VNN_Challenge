@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/268410e247c64b468017c84d17a893ab/artifacts
+end_time: 1745630146283
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 268410e247c64b468017c84d17a893ab
+run_name: awesome-finch-790
+run_uuid: 268410e247c64b468017c84d17a893ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745630016788
+status: 3
+tags: []
+user_id: sl3223

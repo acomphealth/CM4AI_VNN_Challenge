@@ -68,6 +68,7 @@ with mlflow.start_run() as parent_run:
 
     train_cmd = VNNTrain(train_config)
     train_cmd.run()
+
     mlflow.log_artifact(os.path.join(train_outdir,"hierarchy.cx2"))
     mlflow.log_artifact(os.path.join(train_outdir,"model_final.pt"))
 

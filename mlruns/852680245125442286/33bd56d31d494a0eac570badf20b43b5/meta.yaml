@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/33bd56d31d494a0eac570badf20b43b5/artifacts
+end_time: 1745619088600
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 33bd56d31d494a0eac570badf20b43b5
+run_name: beautiful-bass-103
+run_uuid: 33bd56d31d494a0eac570badf20b43b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745618799799
+status: 3
+tags: []
+user_id: sl3223
