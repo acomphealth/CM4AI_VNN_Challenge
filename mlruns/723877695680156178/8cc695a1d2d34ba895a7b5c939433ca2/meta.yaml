@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/8cc695a1d2d34ba895a7b5c939433ca2/artifacts
+end_time: 1745694761504
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 8cc695a1d2d34ba895a7b5c939433ca2
+run_name: kindly-lamb-644
+run_uuid: 8cc695a1d2d34ba895a7b5c939433ca2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745694551522
+status: 3
+tags: []
+user_id: sl3223

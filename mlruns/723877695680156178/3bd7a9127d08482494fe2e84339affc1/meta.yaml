@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/3bd7a9127d08482494fe2e84339affc1/artifacts
+end_time: 1745695064748
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 3bd7a9127d08482494fe2e84339affc1
+run_name: able-hawk-354
+run_uuid: 3bd7a9127d08482494fe2e84339affc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745694971377
+status: 3
+tags: []
+user_id: sl3223

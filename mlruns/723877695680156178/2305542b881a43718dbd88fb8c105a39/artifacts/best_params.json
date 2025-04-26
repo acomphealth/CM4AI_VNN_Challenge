@@ -1,0 +1,7 @@
+{
+  "epoch": 10,
+  "lr": 0.01,
+  "wd": 0.001,
+  "alpha": 0.3,
+  "best_study_id": "aa65af82e66e4f4a8b2e299aefbb57d9"
+}

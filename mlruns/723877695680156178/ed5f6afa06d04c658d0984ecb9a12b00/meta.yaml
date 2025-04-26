@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/ed5f6afa06d04c658d0984ecb9a12b00/artifacts
+end_time: 1745693541132
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: ed5f6afa06d04c658d0984ecb9a12b00
+run_name: judicious-wolf-771
+run_uuid: ed5f6afa06d04c658d0984ecb9a12b00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745693317550
+status: 3
+tags: []
+user_id: sl3223

@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/30a83347e28f4004a34d51ac1e238858/artifacts
+end_time: 1745690248211
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 30a83347e28f4004a34d51ac1e238858
+run_name: nimble-pig-207
+run_uuid: 30a83347e28f4004a34d51ac1e238858
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745690141906
+status: 3
+tags: []
+user_id: sl3223

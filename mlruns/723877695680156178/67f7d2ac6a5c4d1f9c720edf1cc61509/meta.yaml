@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/67f7d2ac6a5c4d1f9c720edf1cc61509/artifacts
+end_time: 1745694251337
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 67f7d2ac6a5c4d1f9c720edf1cc61509
+run_name: zealous-conch-67
+run_uuid: 67f7d2ac6a5c4d1f9c720edf1cc61509
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745694156763
+status: 3
+tags: []
+user_id: sl3223

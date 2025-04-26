@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/8deb67a624da4b828b8a6c397e404e70/artifacts
+end_time: 1745694156760
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 8deb67a624da4b828b8a6c397e404e70
+run_name: awesome-moose-825
+run_uuid: 8deb67a624da4b828b8a6c397e404e70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745693949997
+status: 3
+tags: []
+user_id: sl3223

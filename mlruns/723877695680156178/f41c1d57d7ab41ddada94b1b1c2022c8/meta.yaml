@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/f41c1d57d7ab41ddada94b1b1c2022c8/artifacts
+end_time: 1745693641422
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: f41c1d57d7ab41ddada94b1b1c2022c8
+run_name: powerful-owl-706
+run_uuid: f41c1d57d7ab41ddada94b1b1c2022c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745693541135
+status: 3
+tags: []
+user_id: sl3223

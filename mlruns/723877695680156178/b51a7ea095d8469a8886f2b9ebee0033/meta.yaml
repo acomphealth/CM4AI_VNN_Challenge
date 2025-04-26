@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/b51a7ea095d8469a8886f2b9ebee0033/artifacts
+end_time: 1745695661367
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: b51a7ea095d8469a8886f2b9ebee0033
+run_name: delicate-mink-951
+run_uuid: b51a7ea095d8469a8886f2b9ebee0033
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745695455780
+status: 3
+tags: []
+user_id: sl3223

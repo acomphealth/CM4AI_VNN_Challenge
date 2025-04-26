@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/380d4dc4478545a7acd81fc6a0572ee3/artifacts
+end_time: 1745690248230
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 380d4dc4478545a7acd81fc6a0572ee3
+run_name: legendary-mink-355
+run_uuid: 380d4dc4478545a7acd81fc6a0572ee3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745690248214
+status: 3
+tags: []
+user_id: sl3223

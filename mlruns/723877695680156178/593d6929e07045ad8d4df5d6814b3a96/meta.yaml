@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/593d6929e07045ad8d4df5d6814b3a96/artifacts
+end_time: 1745689655302
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 593d6929e07045ad8d4df5d6814b3a96
+run_name: vaunted-grub-819
+run_uuid: 593d6929e07045ad8d4df5d6814b3a96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745689557411
+status: 3
+tags: []
+user_id: sl3223

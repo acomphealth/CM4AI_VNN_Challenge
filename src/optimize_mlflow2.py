@@ -118,30 +118,42 @@ def train(params):
 
 def objective(trial):
     params = {
-        "epoch": trial.suggest_categorical("epoch", [20, 25, 50]),
-        "lr": trial.suggest_categorical("lr", [0.001, 0.005, 0.01]),
-        "wd": trial.suggest_categorical("wd", [0.001, 0.005, 0.01]),
-        "alpha": trial.suggest_categorical("alpha", [0.01, 0.05, 0.1, 0.3]),
+        "epoch": trial.suggest_categorical("epoch", [10, 25]),
+        "lr": trial.suggest_categorical("lr", [0.01, 0.001]),
+        "wd": trial.suggest_categorical("wd", [0.01, 0.001]),
+        "alpha": trial.suggest_categorical("alpha", [0.1, 0.3]),
         "trial_number": trial.number
     }
+    
+#    params = {
+#        "epoch": trial.suggest_int("epoch", 20, 50),  # search between 20 and 50 epochs
+#        "lr": trial.suggest_float("lr", 1e-4, 1e-2, log=True),  # search learning rate between 0.0001 and 0.01, log scale
+#        "wd": trial.suggest_float("wd", 1e-5, 1e-2, log=True),  # search weight decay between 0.00001 and 0.01, log scale
+#        "alpha": trial.suggest_float("alpha", 0.01, 0.3),  # search alpha between 0.01 and 0.3
+#        "trial_number": trial.number
+#    }
 
     error, run_id = train(params)
-
     optuna_mlflow_mapping[trial.number] = run_id
 
     return error
 
 if __name__ == "__main__":
     search_space = {
-        "epoch": [20, 25, 50],
-        "lr": [0.001, 0.005, 0.01],
-        "wd": [0.001, 0.005, 0.01],
-        "alpha": [0.01, 0.05, 0.1, 0.3]
+        "epoch": [10, 25],
+        "lr": [0.01, 0.001],
+        "wd": [0.01, 0.001],        
+        "alpha": [0.1, 0.3]
     }
 
     n_trials = len(list(product(*search_space.values())))
 
-    study = optuna.create_study(direction="minimize")
+#    n_trials = 5
+
+    sampler = optuna.samplers.GridSampler(search_space)
+    study = optuna.create_study(direction='minimize', sampler=sampler)
+
+#    study = optuna.create_study(direction="minimize")
     study.optimize(objective, n_trials=n_trials)
 
     best_params = study.best_params

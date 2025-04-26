@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/73e7c90da8a84633b81f97124f0e5a8a/artifacts
+end_time: 1745683399493
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: 73e7c90da8a84633b81f97124f0e5a8a
+run_name: powerful-shad-375
+run_uuid: 73e7c90da8a84633b81f97124f0e5a8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745683171305
+status: 4
+tags: []
+user_id: sl3223

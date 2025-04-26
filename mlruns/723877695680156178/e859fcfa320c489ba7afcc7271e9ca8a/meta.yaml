@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/e859fcfa320c489ba7afcc7271e9ca8a/artifacts
+end_time: 1745693949994
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: e859fcfa320c489ba7afcc7271e9ca8a
+run_name: selective-shrimp-527
+run_uuid: e859fcfa320c489ba7afcc7271e9ca8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745693737261
+status: 3
+tags: []
+user_id: sl3223

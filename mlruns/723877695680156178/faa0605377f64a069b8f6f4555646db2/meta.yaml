@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/faa0605377f64a069b8f6f4555646db2/artifacts
+end_time: 1745693317546
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: faa0605377f64a069b8f6f4555646db2
+run_name: rumbling-moose-469
+run_uuid: faa0605377f64a069b8f6f4555646db2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745693212377
+status: 3
+tags: []
+user_id: sl3223
