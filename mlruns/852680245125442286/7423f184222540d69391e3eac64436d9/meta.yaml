@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/7423f184222540d69391e3eac64436d9/artifacts
+end_time: 1745678509795
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 7423f184222540d69391e3eac64436d9
+run_name: clean-cod-840
+run_uuid: 7423f184222540d69391e3eac64436d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745678297353
+status: 4
+tags: []
+user_id: sl3223

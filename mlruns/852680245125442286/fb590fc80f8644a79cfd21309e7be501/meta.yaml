@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/fb590fc80f8644a79cfd21309e7be501/artifacts
+end_time: 1745680079854
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: fb590fc80f8644a79cfd21309e7be501
+run_name: serious-dolphin-541
+run_uuid: fb590fc80f8644a79cfd21309e7be501
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745679855407
+status: 4
+tags: []
+user_id: sl3223

@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/1a20a0c96aee4a56b45b78e2c64f5bea/artifacts
+end_time: 1745679430099
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 1a20a0c96aee4a56b45b78e2c64f5bea
+run_name: upset-lark-941
+run_uuid: 1a20a0c96aee4a56b45b78e2c64f5bea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745679218976
+status: 3
+tags: []
+user_id: sl3223

@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/d0d6dd85ff4043d9836623fdcac4b164/artifacts
+end_time: 1745679739482
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: d0d6dd85ff4043d9836623fdcac4b164
+run_name: gentle-donkey-118
+run_uuid: d0d6dd85ff4043d9836623fdcac4b164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745679519759
+status: 3
+tags: []
+user_id: sl3223

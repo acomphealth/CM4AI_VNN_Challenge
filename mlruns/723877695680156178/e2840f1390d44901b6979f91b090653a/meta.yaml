@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/e2840f1390d44901b6979f91b090653a/artifacts
+end_time: 1745681536192
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: e2840f1390d44901b6979f91b090653a
+run_name: learned-pig-873
+run_uuid: e2840f1390d44901b6979f91b090653a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745681433926
+status: 4
+tags: []
+user_id: sl3223

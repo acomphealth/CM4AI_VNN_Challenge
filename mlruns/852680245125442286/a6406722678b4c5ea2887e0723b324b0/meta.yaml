@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/a6406722678b4c5ea2887e0723b324b0/artifacts
+end_time: 1745681041738
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: a6406722678b4c5ea2887e0723b324b0
+run_name: inquisitive-hog-152
+run_uuid: a6406722678b4c5ea2887e0723b324b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745680837683
+status: 3
+tags: []
+user_id: sl3223

@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/8230d542ca70407bb61f6863e037f1ca/artifacts
+end_time: 1745677693751
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 8230d542ca70407bb61f6863e037f1ca
+run_name: colorful-hog-309
+run_uuid: 8230d542ca70407bb61f6863e037f1ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745677483262
+status: 4
+tags: []
+user_id: sl3223

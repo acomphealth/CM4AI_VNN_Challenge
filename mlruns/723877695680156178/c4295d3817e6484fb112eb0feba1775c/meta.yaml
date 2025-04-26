@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/c4295d3817e6484fb112eb0feba1775c/artifacts
+end_time: 1745681678010
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: c4295d3817e6484fb112eb0feba1775c
+run_name: orderly-mare-348
+run_uuid: c4295d3817e6484fb112eb0feba1775c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745681578003
+status: 3
+tags: []
+user_id: sl3223

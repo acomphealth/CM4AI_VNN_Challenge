@@ -3,6 +3,8 @@ from itertools import product
 import mlflow
 import optuna
 
+import pandas as pd
+import numpy as np
 
 from cellmaps_vnn.annotate import VNNAnnotate
 from cellmaps_vnn.predict_mlflow import VNNPredict
@@ -48,6 +50,11 @@ base_config = {
 experiment_name = "vnn-challenge-hyperparameter-optimization"
 mlflow.set_experiment(experiment_name)
 
+def calculate_error(y_true, y_pred):
+
+    mse = np.mean((y_true - y_pred) ** 2)
+    return mse
+
 optuna_mlflow_mapping = {}
 
 def train(params):
@@ -70,7 +77,7 @@ def train(params):
         config["outdir"] = train_outdir
         train_config = AttrDict(config)
         train_cmd = VNNTrain(train_config)
-        min_val_loss = train_cmd.run()
+        train_cmd.run()
 
         mlflow.log_artifact(os.path.join(train_outdir, "hierarchy.cx2"))
         mlflow.log_artifact(os.path.join(train_outdir, "model_final.pt"))
@@ -79,14 +86,24 @@ def train(params):
         config["inputdir"] = train_outdir
         config["hierarchy"] = os.path.join(train_outdir, "hierarchy.cx2")
         config["std"] = None
-
         predict_config = AttrDict(config)
+        
         predict_cmd = VNNPredict(predict_config)
         predict_cmd.run()
 
         mlflow.log_artifact(os.path.join(predict_outdir, "predict.txt"))
         mlflow.log_artifact(os.path.join(predict_outdir,"gene_rho.out"))
         mlflow.log_artifact(os.path.join(predict_outdir,"rlipp.out"))
+
+        predict_file_path = os.path.join(predict_outdir, "predict.txt")
+        y_pred = np.loadtxt(predict_file_path)
+
+        predict_data_file = config["predict_data"]
+        predict_data = pd.read_csv(predict_data_file, delimiter="\t", header=None)
+        y_true = predict_data.iloc[:, 2].values
+
+        error = calculate_error(y_true, y_pred)
+        mlflow.log_metric("mse", error)
 
         config["outdir"] = annotate_outdir
         config["inputdir"] = predict_outdir
@@ -97,29 +114,29 @@ def train(params):
         mlflow.log_artifact(os.path.join(annotate_outdir, "rlipp.out"))
         mlflow.log_artifact(os.path.join(annotate_outdir, "hierarchy.cx2"))
 
-        return min_val_loss, run.info.run_id
+        return error, run.info.run_id
 
 def objective(trial):
     params = {
-        "epoch": trial.suggest_categorical("epoch", [10]),
-        "lr": trial.suggest_categorical("lr", [0.001, 0.01]),
-        "wd": trial.suggest_categorical("wd", [0.001]),
-        "alpha": trial.suggest_categorical("alpha", [0.05]),
+        "epoch": trial.suggest_categorical("epoch", [20, 25, 50]),
+        "lr": trial.suggest_categorical("lr", [0.001, 0.005, 0.01]),
+        "wd": trial.suggest_categorical("wd", [0.001, 0.005, 0.01]),
+        "alpha": trial.suggest_categorical("alpha", [0.01, 0.05, 0.1, 0.3]),
         "trial_number": trial.number
     }
 
-    score, run_id = train(params)
+    error, run_id = train(params)
 
     optuna_mlflow_mapping[trial.number] = run_id
 
-    return score
+    return error
 
 if __name__ == "__main__":
     search_space = {
-        "epoch": [5, 7],
-        "lr": [0.001],
-        "wd": [0.001],
-        "alpha": [0.05]
+        "epoch": [20, 25, 50],
+        "lr": [0.001, 0.005, 0.01],
+        "wd": [0.001, 0.005, 0.01],
+        "alpha": [0.01, 0.05, 0.1, 0.3]
     }
 
     n_trials = len(list(product(*search_space.values())))
@@ -127,6 +144,8 @@ if __name__ == "__main__":
     study = optuna.create_study(direction="minimize")
     study.optimize(objective, n_trials=n_trials)
 
-    print("Best trial:")
-    print(study.best_trial)
+    best_params = study.best_params
+    best_params["best_study_id"] = optuna_mlflow_mapping[study.best_trial._trial_id]
+    print("Best hyperparameters:", best_params)
+    mlflow.log_dict(best_params, "best_params.json")
 

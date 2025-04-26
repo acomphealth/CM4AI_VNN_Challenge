@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/83e46ebe4b0746e99c420dc091fe1062/artifacts
+end_time: 1745677954146
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 83e46ebe4b0746e99c420dc091fe1062
+run_name: placid-elk-560
+run_uuid: 83e46ebe4b0746e99c420dc091fe1062
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745677745114
+status: 3
+tags: []
+user_id: sl3223

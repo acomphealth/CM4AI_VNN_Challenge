@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/20d1c89eca7c46cb8cfd2c193d16764b/artifacts
+end_time: 1745677462636
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 20d1c89eca7c46cb8cfd2c193d16764b
+run_name: trusting-lark-465
+run_uuid: 20d1c89eca7c46cb8cfd2c193d16764b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745677253173
+status: 4
+tags: []
+user_id: sl3223

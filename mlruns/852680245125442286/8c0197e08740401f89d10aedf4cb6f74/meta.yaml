@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/852680245125442286/8c0197e08740401f89d10aedf4cb6f74/artifacts
+end_time: 1745680352311
+entry_point_name: ''
+experiment_id: '852680245125442286'
+lifecycle_stage: active
+run_id: 8c0197e08740401f89d10aedf4cb6f74
+run_name: ambitious-gnu-860
+run_uuid: 8c0197e08740401f89d10aedf4cb6f74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745680156076
+status: 4
+tags: []
+user_id: sl3223

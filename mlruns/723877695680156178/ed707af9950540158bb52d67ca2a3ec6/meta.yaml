@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/ed707af9950540158bb52d67ca2a3ec6/artifacts
+end_time: 1745681916383
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: ed707af9950540158bb52d67ca2a3ec6
+run_name: receptive-rat-832
+run_uuid: ed707af9950540158bb52d67ca2a3ec6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745681812818
+status: 3
+tags: []
+user_id: sl3223

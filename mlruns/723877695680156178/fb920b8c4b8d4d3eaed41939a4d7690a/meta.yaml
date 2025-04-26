@@ -1,0 +1,15 @@
+artifact_uri: file:///gpfs/gibbs/project/schulz/sl3223/CM4AI_VNN_Challenge/mlruns/723877695680156178/fb920b8c4b8d4d3eaed41939a4d7690a/artifacts
+end_time: 1745682016036
+entry_point_name: ''
+experiment_id: '723877695680156178'
+lifecycle_stage: active
+run_id: fb920b8c4b8d4d3eaed41939a4d7690a
+run_name: sedate-grouse-268
+run_uuid: fb920b8c4b8d4d3eaed41939a4d7690a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745681916387
+status: 3
+tags: []
+user_id: sl3223

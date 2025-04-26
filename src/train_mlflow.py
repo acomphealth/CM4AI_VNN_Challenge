@@ -1,5 +1,8 @@
 import os
 
+import numpy as np
+import pandas as pd
+
 from cellmaps_vnn.annotate import VNNAnnotate
 from cellmaps_vnn.predict_mlflow import VNNPredict
 from cellmaps_vnn.train_mlflow import VNNTrain
@@ -84,6 +87,22 @@ with mlflow.start_run() as parent_run:
     mlflow.log_artifact(os.path.join(predict_outdir,"gene_rho.out"))
     mlflow.log_artifact(os.path.join(predict_outdir,"rlipp.out"))
     mlflow.log_artifact(os.path.join(predict_outdir,"predict.txt"))
+
+    with open(os.path.join(predict_outdir,"predict.txt"), 'r') as file:
+        lines = [line.strip() for line in file]
+        first_five = lines[:5]
+        for line in first_five:
+            print(line.strip())
+    
+    predict_file_path = os.path.join(predict_outdir, "predict.txt")
+    y_pred = np.loadtxt(predict_file_path)
+
+    predict_data_file = config["predict_data"]
+    predict_data = pd.read_csv(predict_data_file, delimiter="\t", header=None)
+    y_true = predict_data.iloc[:, 2].values
+
+    mse = np.mean((y_true - y_pred) ** 2)
+    print(mse)
 
     config["outdir"] = annotate_outdir
     config["inputdir"] = predict_outdir
